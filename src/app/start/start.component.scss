@@ -1,0 +1,29 @@
+@import 'variables';
+
+.mttour {
+  padding: 30px 0;
+
+  &__left-column {
+    img {
+      max-width: 100%;
+    }
+  }
+
+  &__logo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+
+  &__right-column {
+    padding-left: 30px;
+  }
+
+  &__sign-in {
+    font-size: 14px;
+
+    &_warning {
+      color: $color-red;
+    }
+  }
+}

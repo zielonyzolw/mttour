@@ -1,0 +1,15 @@
+@import 'bootstrap';
+@import 'variables';
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  background: $color-black;
+  color: $color-white;
+}
+
+.container {
+  height: 100%;
+  max-width: 1366px;
+  width: 100%;
+  margin: 0 auto;
+}
